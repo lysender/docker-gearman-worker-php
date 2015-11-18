@@ -39,6 +39,7 @@ RUN yum -y install supervisor \
 # Configure servicies
 ADD ./start.sh /start.sh
 ADD ./supervisor-phpworker.ini /etc/supervisord.d/phpworker.ini
+ADD ./timezone.ini /etc/php.d/timezone.ini
 
 RUN chmod 755 /start.sh
 
