@@ -4,5 +4,3 @@ Generic Gearman Worker for PHP. You must already have a running Gearman server f
 
 You can use my Gearman server: https://github.com/lysender/docker-gearman
 
-
-
